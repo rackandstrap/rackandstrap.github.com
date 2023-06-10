@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+@keyframes colorTransition {
+    0% { color: #ee7752; } /* Initial color */
+    50% { color: #e2e48f; } /* Intermediate color */
+    100% { color: #ee7752; } /* Final color */
+}
+
+body{
+    background-color: #4d4d4d;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Righteous';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.head-line{
+    font-size: 50px;
+    color: #8fadae;
+}
+
+.logo{
+    font-family: 'Lobster';
+    font-size: 80px;
+    margin-top: 20%;
+    animation: colorTransition 10s linear infinite;
+}
+
+.release-line{
+    font-size: 33px;
+    color:#8fadae;
+    margin-top: 15%;
+}
