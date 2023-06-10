@@ -27,13 +27,14 @@ body{
 
 .logo{
     font-family: 'Lobster';
-    font-size: 80px;
-    margin-top: 20%;
+    /* font-size: 80px; */
+    font-size: 9vw;
+    margin-top: 20vh;
     animation: colorTransition 10s linear infinite;
 }
 
 .release-line{
-    font-size: 33px;
+    font-size: 30px;
     color:#8fadae;
-    margin-top: 15%;
+    margin-top: 15vh;
 }
