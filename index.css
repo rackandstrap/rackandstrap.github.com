@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
 @keyframes colorTransition {
-    0% { color: #ee7752; } /* Initial color */
-    50% { color: #e2e48f; } /* Intermediate color */
-    100% { color: #ee7752; } /* Final color */
+    0% { color: #e9e9b9; } /* Initial color */
+    50% { color: #ee7752; } /* Intermediate color */
+    100% { color: #e9e9b9; } /* Final color */
 }
 
 body{
